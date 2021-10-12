@@ -1,0 +1,28 @@
+img{
+  max-width: 100%;
+}
+
+body{
+  background-color: rgb(230, 160, 100);
+  font-size: 50px;
+  text-align: center;
+  color: rgb(250, 190, 100);
+}
+
+@media screen and (max-width:1000px){
+  body{
+    background-color: rgb(160, 100, 160);
+    font-size: 40px;
+    text-align: center;
+    color: rgb(200, 130, 190);
+  }
+}
+
+@media screen and (max-width:600px){
+  body{
+    background-color: rgb(100, 160, 250);
+    font-size: 30px;
+    text-align: center;
+    color: rgb(130, 190, 255);
+  }
+}
